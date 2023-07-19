@@ -1,0 +1,21 @@
+main {
+    width: 100%;
+    height: 2000px;
+    border: 1px solid black;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .slide {
+        width: 100%;
+        height: 504px;
+        background-color: aquamarine;
+    }
+
+    .businessSuggest {
+        height: 456px;
+        width: 100%;
+        border: 1px solid black;
+    }
+}
