@@ -6,7 +6,6 @@ body {
 body header {
   height: 74px;
   width: 100%;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,29 +13,34 @@ body header {
 body header .container {
   width: 95%;
   height: 90%;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+body header .container .headerMobIcons {
+  height: 30px;
 }
 body header .container .logo {
-  width: 10%;
-  height: 90%;
-  border: 1px solid black;
+  width: 150px;
+  height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+body header .container .logo a {
+  width: 100%;
+  height: 100%;
 }
 body header .container .logo a img {
   width: 100%;
-  height: 40px;
-  border: 1px solid black;
+  height: 100%;
 }
-body header .container .middlePartMenuList {
+body header .container .menuForWeb {
   width: 690px;
   height: 90%;
-  border: 1px solid black;
 }
-body header .container .middlePartMenuList ul {
+body header .container .menuForWeb ul {
   width: 100%;
   padding: 0;
   display: flex;
@@ -44,7 +48,7 @@ body header .container .middlePartMenuList ul {
   justify-content: space-around;
 }
 @media (min-width: 1000px) {
-  body header .container .middlePartMenuList ul li {
+  body header .container .menuForWeb ul li {
     list-style-type: none;
     font-size: 14px;
     line-height: 24px;
@@ -53,14 +57,14 @@ body header .container .middlePartMenuList ul {
     display: flex;
     justify-content: center;
   }
-  body header .container .middlePartMenuList ul li a {
+  body header .container .menuForWeb ul li a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     color: rgba(0, 0, 0, 0.38);
   }
 }
 @media (max-width: 1000px) {
-  body header .container .middlePartMenuList ul li {
+  body header .container .menuForWeb ul li {
     list-style-type: none;
     font-size: 10px;
     line-height: 24px;
@@ -69,13 +73,13 @@ body header .container .middlePartMenuList ul {
     display: flex;
     justify-content: center;
   }
-  body header .container .middlePartMenuList ul li a {
+  body header .container .menuForWeb ul li a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     color: rgba(0, 0, 0, 0.38);
   }
 }
-body header .container .rightPartOnlineBank {
+body header .container .buttonOnlineBank {
   width: 50%;
   height: 90%;
   border: 1px solid black;
@@ -83,7 +87,7 @@ body header .container .rightPartOnlineBank {
   justify-content: end;
   align-items: center;
 }
-body header .container .rightPartOnlineBank button {
+body header .container .buttonOnlineBank button {
   width: 128px;
   height: 40px;
   border-radius: 5px;
@@ -94,8 +98,36 @@ body header .container .rightPartOnlineBank button {
   justify-content: center;
   align-items: center;
 }
-body header .container .rightPartOnlineBank button img {
+body header .container .buttonOnlineBank button img {
   height: 24px;
   width: 24px;
   filter: brightness(0) invert(1);
+}
+@media (max-width: 678px) {
+  body header .container .menuForWeb {
+    display: none;
+  }
+  body header .container .buttonOnlineBank {
+    display: none;
+  }
+  body header .container .logo {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body header .container .logo a {
+    width: 100%;
+    height: 100%;
+  }
+  body header .container .logo a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 678px) {
+  body header .container .headerMobIcons {
+    display: none;
+  }
 }/*# sourceMappingURL=styleOfHeader.css.map */
