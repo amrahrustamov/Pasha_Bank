@@ -6,51 +6,64 @@ body {
     header {
     height: 74px;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    background-color: white;
+
 
         .container {
             width: 95%;
             height: 90%;
-            border: 1px solid black;
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: space-between;
 
-                .logo {
-                    width: 10%;
-                    height: 90%;
-                    border: 1px solid black;
+            .headerMobIcons {
+                height: 30px;
+            }
+            .logo {
+                width: 150px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                a {
+                    width: 100%;
+                    height: 100%;
                     display: flex;
                     align-items: center;
-    
-                    a {
-                        
-                        img {
-                            width: 100%;
-                            height: 40px;
-                            border: 1px solid black;
-                            
-                        }
+                    img {
+                        width: 70%;
+                        height: 70%;                            
                     }
                 }
-            
-            .middlePartMenuList {
+            }           
+            .menuForWeb {
                 width: 690px;
                 height: 90%;
-                border: 1px solid black;
 
                 ul {   
                     width: 100%;               
                     padding: 0;
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-around;
-                    
+                    justify-content: space-around;                    
                     
                     @media (min-width: 1000px) {
+                        li:hover {
+                            border-bottom: 2px solid #058d66;
+
+                            a {
+                                text-decoration: none;
+                                font-family: 'Roboto', sans-serif;
+                                color: black;
+                                
+                            }
+                        }
                         li {
                             list-style-type: none;
                             font-size: 14px;
@@ -69,6 +82,9 @@ body {
                         }
                     }
                     @media (max-width: 1000px) {
+                        li:hover {
+                            border-bottom: 1px solid #058d66;
+                        }
                         li {
                             list-style-type: none;
                             font-size: 10px;
@@ -88,13 +104,16 @@ body {
                     }
                 }
             }
-            .rightPartOnlineBank{
-                width: 50%;
+            .buttonOnlineBank{
+                width: 52%;
                 height: 90%;
-                border: 1px solid black;
                 display: flex;
                 justify-content: end;
                 align-items: center;
+
+                button:hover {
+                    background-color: #169773;
+                }
 
                 button {
                     width: 128px;
@@ -107,12 +126,52 @@ body {
                     justify-content: center;
                     align-items: center;
 
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
-                    img {
-                        height: 24px;
-                        width: 24px;
-                        filter: brightness(0) invert(1);
+                        img {
+                            height: 24px;
+                            width: 24px;
+                            filter: brightness(0) invert(1);
+                        }
                     }
+
+                }
+            }
+
+            @media (max-width: 678px) {
+                .menuForWeb {
+                    display: none;
+                }
+                .buttonOnlineBank {
+                    display: none;
+                }
+
+                .logo {
+                    width: 100px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            
+                        }
+                    }
+                }
+            }
+            @media (min-width: 678px) {
+                .headerMobIcons {
+                    display: none;
                 }
             }
         }
