@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body header {
+  height: 74px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .container {
+  width: 95%;
+  height: 90%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body header .container .logo {
+  width: 10%;
+  height: 90%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+body header .container .logo a img {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+}
+body header .container .middlePartMenuList {
+  width: 690px;
+  height: 90%;
+  border: 1px solid black;
+}
+body header .container .middlePartMenuList ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (min-width: 1000px) {
+  body header .container .middlePartMenuList ul li {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+  }
+  body header .container .middlePartMenuList ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.38);
+  }
+}
+@media (max-width: 1000px) {
+  body header .container .middlePartMenuList ul li {
+    list-style-type: none;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+  }
+  body header .container .middlePartMenuList ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.38);
+  }
+}
+body header .container .rightPartOnlineBank {
+  width: 50%;
+  height: 90%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+body header .container .rightPartOnlineBank button {
+  width: 128px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #058d66;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .container .rightPartOnlineBank button img {
+  height: 24px;
+  width: 24px;
+  filter: brightness(0) invert(1);
+}/*# sourceMappingURL=styleOfHeader.css.map */
