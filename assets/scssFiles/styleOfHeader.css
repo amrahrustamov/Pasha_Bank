@@ -31,10 +31,12 @@ body header .container .logo {
 body header .container .logo a {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 body header .container .logo a img {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
 }
 body header .container .menuForWeb {
   width: 690px;
@@ -48,6 +50,14 @@ body header .container .menuForWeb ul {
   justify-content: space-around;
 }
 @media (min-width: 1000px) {
+  body header .container .menuForWeb ul li:hover {
+    border-bottom: 2px solid #058d66;
+  }
+  body header .container .menuForWeb ul li:hover a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+  }
   body header .container .menuForWeb ul li {
     list-style-type: none;
     font-size: 14px;
@@ -64,6 +74,9 @@ body header .container .menuForWeb ul {
   }
 }
 @media (max-width: 1000px) {
+  body header .container .menuForWeb ul li:hover {
+    border-bottom: 1px solid #058d66;
+  }
   body header .container .menuForWeb ul li {
     list-style-type: none;
     font-size: 10px;
@@ -80,12 +93,14 @@ body header .container .menuForWeb ul {
   }
 }
 body header .container .buttonOnlineBank {
-  width: 50%;
+  width: 52%;
   height: 90%;
-  border: 1px solid black;
   display: flex;
   justify-content: end;
   align-items: center;
+}
+body header .container .buttonOnlineBank button:hover {
+  background-color: #169773;
 }
 body header .container .buttonOnlineBank button {
   width: 128px;
@@ -98,7 +113,14 @@ body header .container .buttonOnlineBank button {
   justify-content: center;
   align-items: center;
 }
-body header .container .buttonOnlineBank button img {
+body header .container .buttonOnlineBank button a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .container .buttonOnlineBank button a img {
   height: 24px;
   width: 24px;
   filter: brightness(0) invert(1);
