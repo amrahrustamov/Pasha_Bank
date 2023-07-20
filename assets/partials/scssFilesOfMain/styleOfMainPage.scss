@@ -7,15 +7,102 @@ main {
     flex-direction: column;
     align-items: center;
 
-    .slide {
-        width: 100%;
-        height: 504px;
-        background-color: aquamarine;
+    .container {
+        height: 4000px;
+        width: 95%;
+        border: 1px solid black;
+
+        .slide {
+            width: 100%;
+            height: 504px;
+            background-color: aquamarine;
+        }
+    
+        .businessSuggest {
+            height: 500px;
+            width: 100%;
+            border: 1px solid black;
+
+          
+            .infoAboutSuggest {
+                height: 96px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+
+                h3 {
+                    color: rgb(53, 53, 53);
+                    font-size: 30px;
+                    font-weight: normal;
+                    line-height: 40px;
+                }             
+            }
+            .suggests {
+                height: 320px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+               
+                .suggestBoxes {
+                    height: 296px;
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    
+                    p {
+                     color: rgb(53, 53, 53);
+                     font-size: 20px;
+                     font-weight: 600;
+                     line-height: 24px;
+                     letter-spacing: .15px;
+                    }
+                    .iconOfSuggest {
+                        height: 40px;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+
+
+                    }
+
+                    .informations {
+                        height: 76px;
+                        width: 100%;
+                        margin-bottom: 100px;
+                        margin-left: -10px;
+
+                        ul {
+                            margin-bottom: 200px;
+                            li {
+                                list-style-image: url('/assets/icon/done_green.svg');
+                                color: rgba(0,0,0,.6);
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 20px;
+                                letter-spacing: .25px;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+
+                    .moreAbout {
+                        height: 40px;
+                        width: 100%;
+
+                        a {
+                            text-decoration: none;
+                            color: green;
+                           
+                        }
+                    }
+                }
+            }
+        }
     }
 
-    .businessSuggest {
-        height: 456px;
-        width: 100%;
-        border: 1px solid black;
-    }
 }
