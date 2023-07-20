@@ -512,4 +512,62 @@ main .container .productOfBusiness .products {
     font-weight: 600;
     color: green;
   }
+}
+main .container .infoBankApp {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .container .infoBankApp .information {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .infoBankApp .information .titleOfBoxes {
+  height: 80px;
+  width: 100%;
+}
+main .container .infoBankApp .information .titleOfBoxes h3 {
+  line-height: 32px;
+  font-size: 25px;
+  color: black;
+}
+main .container .infoBankApp .information .boxes {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .infoBankApp .information .boxes .title {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+main .container .infoBankApp .information .boxes .title h6 {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 10px;
+}
+main .container .infoBankApp .information .boxes .text {
+  height: 100px;
+  width: 100%;
+}
+main .container .infoBankApp .information .boxes .text p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+main .container .infoBankApp .appPagesImg {
+  height: 100%;
+  width: 50%;
+  background-image: url(/assets/img/online-bank-pages.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 553px;
 }/*# sourceMappingURL=styleOfMainPage.css.map */
