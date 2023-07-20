@@ -1,39 +1,51 @@
 main {
   width: 100%;
-  height: 2000px;
+  height: 5000px;
   border: 1px solid black;
   position: static;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+main h3 {
+  color: rgb(53, 53, 53);
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+}
+main h4 {
+  color: rgb(53, 53, 53);
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 40px;
+}
+main .moreAbout {
+  height: 40px;
+  width: 100%;
+}
+main .moreAbout a {
+  text-decoration: none;
+  color: green;
+}
 main .container {
   height: 4000px;
-  width: 95%;
-  border: 1px solid black;
+  width: 70%;
 }
-main .container .slide {
+main .container .slider {
   width: 100%;
   height: 504px;
   background-color: aquamarine;
 }
-@media (min-width: 678px) {
+@media (min-width: 963px) {
   main .container .businessSuggest {
     height: 500px;
     width: 100%;
-    border: 1px solid black;
   }
   main .container .businessSuggest .infoAboutSuggest {
     height: 96px;
     width: 100%;
     display: flex;
     align-items: center;
-  }
-  main .container .businessSuggest .infoAboutSuggest h3 {
-    color: rgb(53, 53, 53);
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 40px;
   }
   main .container .businessSuggest .suggests {
     height: 320px;
@@ -81,20 +93,11 @@ main .container .slide {
     letter-spacing: 0.25px;
     margin-bottom: 30px;
   }
-  main .container .businessSuggest .suggests .suggestBoxes .moreAbout {
-    height: 40px;
-    width: 100%;
-  }
-  main .container .businessSuggest .suggests .suggestBoxes .moreAbout a {
-    text-decoration: none;
-    color: green;
-  }
 }
-@media (max-width: 678px) {
+@media (max-width: 963px) {
   main .container .businessSuggest {
     height: 500px;
     width: 100%;
-    border: 1px solid black;
   }
   main .container .businessSuggest .infoAboutSuggest {
     height: 96px;
@@ -165,5 +168,239 @@ main .container .slide {
   }
   main .container .businessSuggest .suggests .suggestBoxes .moreAbout a span {
     font-size: 12px;
+  }
+}
+main .container .productOfBusiness {
+  height: 2000px;
+  width: 100%;
+  border: 1px solid black;
+}
+main .container .productOfBusiness .infoAboutSection {
+  height: 200px;
+  width: 100%;
+  border: 1px solid rgb(226, 78, 78);
+}
+main .container .productOfBusiness .infoAboutSection h3 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  display: block;
+  -webkit-margin-before: 0.83em;
+          margin-block-start: 0.83em;
+  -webkit-margin-after: 0.83em;
+          margin-block-end: 0.83em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  border: 1px solid black;
+}
+main .container .productOfBusiness .products {
+  min-height: 700px;
+  width: 100%;
+  border: 1px solid rgb(226, 78, 78);
+}
+@media (max-width: 963px) {
+  main .container .productOfBusiness .products .topBoxes {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .bottomBoxes {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 963px) {
+  main .container .productOfBusiness .products .topBoxes {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .topBoxes a {
+    height: 280px;
+    width: 45%;
+    text-decoration: none;
+    color: inherit;
+  }
+  main .container .productOfBusiness .products .topBoxes a .posTerm {
+    background-color: #e7f4f9;
+    background-image: url(/assets/img/pos-terminal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  main .container .productOfBusiness .products .topBoxes a .businessCard {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/business-cards.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT:hover {
+    box-shadow: 0 5px 5px 0 gray;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    -webkit-margin-before: 1.67em;
+            margin-block-start: 1.67em;
+    -webkit-margin-after: 1.67em;
+            margin-block-end: 1.67em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout {
+    height: 30px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
+  }
+  main .container .productOfBusiness .products .bottomBoxes {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .bottomBoxes .boxesB:hover {
+    box-shadow: 0 5px 5px gray;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a {
+    height: 280px;
+    width: 30%;
+    text-decoration: none;
+    color: inherit;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .financing {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/factoring.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .e-commerce {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/e-commerce.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .bankGuarantee {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/bank-guarantee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info {
+    height: 50px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    -webkit-margin-before: 1.67em;
+            margin-block-start: 1.67em;
+    -webkit-margin-after: 1.67em;
+            margin-block-end: 1.67em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout {
+    height: 30px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
   }
 }/*# sourceMappingURL=styleOfMainPage.css.map */
