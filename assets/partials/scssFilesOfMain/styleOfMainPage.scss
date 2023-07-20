@@ -17,92 +17,189 @@ main {
             height: 504px;
             background-color: aquamarine;
         }
+        
+        @media (min-width: 678px) {
+            .businessSuggest {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
     
-        .businessSuggest {
-            height: 500px;
-            width: 100%;
-            border: 1px solid black;
-
-          
-            .infoAboutSuggest {
-                height: 96px;
-                width: 100%;
-                display: flex;
-                align-items: center;
-
-
-                h3 {
-                    color: rgb(53, 53, 53);
-                    font-size: 30px;
-                    font-weight: normal;
-                    line-height: 40px;
-                }             
-            }
-            .suggests {
-                height: 320px;
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-
-               
-                .suggestBoxes {
-                    height: 296px;
-                    width: 30%;
+              
+                .infoAboutSuggest {
+                    height: 96px;
+                    width: 100%;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    
-                    p {
-                     color: rgb(53, 53, 53);
-                     font-size: 20px;
-                     font-weight: 600;
-                     line-height: 24px;
-                     letter-spacing: .15px;
-                    }
-                    .iconOfSuggest {
-                        height: 40px;
-                        width: 100%;
+                    align-items: center;
+    
+    
+                    h3 {
+                        color: rgb(53, 53, 53);
+                        font-size: 30px;
+                        font-weight: normal;
+                        line-height: 40px;
+                    }             
+                }
+                .suggests {
+                    height: 320px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                   
+                    .suggestBoxes {
+                        height: 296px;
+                        width: 30%;
                         display: flex;
-                        align-items: center;
-
-
-                    }
-
-                    .informations {
-                        height: 76px;
-                        width: 100%;
-                        margin-bottom: 100px;
-                        margin-left: -10px;
-
-                        ul {
-                            margin-bottom: 200px;
-                            li {
-                                list-style-image: url('/assets/icon/done_green.svg');
-                                color: rgba(0,0,0,.6);
-                                font-weight: 500;
-                                font-size: 20px;
-                                line-height: 20px;
-                                letter-spacing: .25px;
-                                margin-bottom: 30px;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        
+                        p {
+                         color: rgb(53, 53, 53);
+                         font-size: 20px;
+                         font-weight: 600;
+                         line-height: 24px;
+                         letter-spacing: .15px;
+                        }
+                        .iconOfSuggest {
+                            height: 40px;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+    
+    
+                        }
+    
+                        .informations {
+                            height: 76px;
+                            width: 100%;
+                            margin-bottom: 100px;
+                            margin-left: -10px;
+    
+                            ul {
+                                margin-bottom: 200px;
+                                li {
+                                    list-style-image: url('/assets/icon/done_green.svg');
+                                    color: rgba(0,0,0,.6);
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 20px;
+                                    letter-spacing: .25px;
+                                    margin-bottom: 30px;
+                                }
                             }
                         }
-                    }
-
-                    .moreAbout {
-                        height: 40px;
-                        width: 100%;
-
-                        a {
-                            text-decoration: none;
-                            color: green;
-                           
+    
+                        .moreAbout {
+                            height: 40px;
+                            width: 100%;
+    
+                            a {
+                                text-decoration: none;
+                                color: green;
+                               
+                            }
                         }
                     }
                 }
             }
         }
+
+        @media (max-width: 678px) {
+            .businessSuggest {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
+    
+              
+                .infoAboutSuggest {
+                    height: 96px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+    
+    
+                    h3 {
+                        color: rgb(53, 53, 53);
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 30px;
+                    }             
+                }
+                .suggests {
+                    height: 320px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                   
+                    .suggestBoxes {
+                        height: 296px;
+                        width: 30%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        
+                        p {
+                         color: rgb(53, 53, 53);
+                         font-size: 15px;
+                         font-weight: 600;
+                         line-height: 20px;
+                         letter-spacing: .15px;
+                        }
+                        .iconOfSuggest {
+                            height: 30px;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+    
+    
+                        }
+    
+                        .informations {
+                            height: 56px;
+                            width: 100%;
+                            margin-bottom: 100px;
+                            margin-left: -10px;
+    
+                            ul {
+                                margin-bottom: 200px;
+                                li {
+                                    list-style-image: url('/assets/icon/done_green.svg');
+                                    color: rgba(0,0,0,.6);
+                                    font-weight: 500;
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    letter-spacing: .15px;
+                                   
+                                }
+                            }
+                        }
+    
+                        .moreAbout {
+                            height: 15px;
+                            width: 100%;
+    
+                            a {
+                                text-decoration: none;
+                                color: green;
+                                border: 1px solid black;
+                                width: 100%;
+
+                                span {
+                                    font-size: 12px;
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
     }
 
 }
