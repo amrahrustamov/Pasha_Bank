@@ -700,4 +700,87 @@ main .container .businessPackages .packagesBox .packages .container a .createAcc
 }
 main .container .businessPackages .packagesBox .packages .container a .createAccount:hover {
   background-color: #169773;
+}
+main .container .mobilBank {
+  height: 360px;
+  width: 100%;
+  background-image: url(/assets/img/mobile-image.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .container .mobilBank .boxOfNotice .titleAboutMobilBank {
+  height: 25%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice .titleAboutMobilBank h4 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: black;
+}
+main .container .mobilBank .boxOfNotice .informationAboutMobilBank {
+  height: 22%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice .informationAboutMobilBank h4 {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode {
+  height: 30%;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore {
+  height: 45%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore a img {
+  height: 100%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay {
+  height: 45%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay a img {
+  height: 100%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode {
+  height: 70%;
+  width: 35%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode a img {
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=styleOfMainPage.css.map */

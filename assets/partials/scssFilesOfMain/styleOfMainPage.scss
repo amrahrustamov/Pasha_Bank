@@ -772,5 +772,103 @@ main {
                 }
             }
         }
+        .mobilBank {
+            height: 360px;
+            width: 100%;
+            background-image: url(/assets/img/mobile-image.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            display: flex;
+            align-items: center;
+
+            .boxOfNotice {
+                height: 90%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .titleAboutMobilBank {
+                    height: 25%;
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+
+                    h4 {
+                        margin-top: 0;
+                        font-size: 18px;
+                        font-weight: 100;
+                        line-height: 20px;
+                        letter-spacing: .15px;
+                        color: black;
+                    }
+                }
+                .informationAboutMobilBank {
+                    height: 22%;
+                    width: 95%;
+                    display: flex;
+                    align-items: center;
+
+                    h4 {
+                        margin-top: 0;
+                        font-size: 15px;
+                        font-weight: 100;
+                        line-height: 20px;
+                        letter-spacing: .10px;
+                    }
+                }
+                .storesAndQRcode {
+                    height: 30%;
+                    width: 200px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .mobileStores {
+                        height: 70%;
+                        width: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .appStore {
+                            height: 45%;
+                            width: 100%;
+                            a {
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .googlePlay {
+                            height: 45%;
+                            width: 100%;
+
+                            a {
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .qrCode {
+                        height: 70%;
+                        width: 35%;
+
+                        a {
+
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
