@@ -1,0 +1,786 @@
+main {
+  width: 100%;
+  min-height: 2000px;
+  border: 1px solid black;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h3 {
+  color: rgb(53, 53, 53);
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+}
+main h4 {
+  color: rgb(53, 53, 53);
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 40px;
+}
+main .moreAbout {
+  height: 40px;
+  width: 100%;
+}
+main .moreAbout a {
+  text-decoration: none;
+  color: green;
+}
+main .container {
+  height: 4000px;
+  width: 70%;
+}
+main .container .slider {
+  width: 100%;
+  height: 504px;
+  background-color: aquamarine;
+}
+@media (min-width: 963px) {
+  main .container .businessSuggest {
+    height: 500px;
+    width: 100%;
+  }
+  main .container .businessSuggest .infoAboutSuggest {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  main .container .businessSuggest .suggests {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes {
+    height: 296px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes p {
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .iconOfSuggest {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations {
+    height: 76px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: -10px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations ul {
+    margin-bottom: 200px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations ul li {
+    list-style-image: url("/assets/icon/done_green.svg");
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 963px) {
+  main .container .businessSuggest {
+    height: 500px;
+    width: 100%;
+  }
+  main .container .businessSuggest .infoAboutSuggest {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  main .container .businessSuggest .infoAboutSuggest h3 {
+    color: rgb(53, 53, 53);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+  }
+  main .container .businessSuggest .suggests {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes {
+    height: 296px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes p {
+    color: rgb(53, 53, 53);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .iconOfSuggest {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations {
+    height: 56px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: -10px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations ul {
+    margin-bottom: 200px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .informations ul li {
+    list-style-image: url("/assets/icon/done_green.svg");
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.15px;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .moreAbout {
+    height: 15px;
+    width: 100%;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .moreAbout a {
+    text-decoration: none;
+    color: green;
+    width: 100%;
+  }
+  main .container .businessSuggest .suggests .suggestBoxes .moreAbout a span {
+    font-size: 12px;
+  }
+}
+main .container .productOfBusiness {
+  min-height: 800px;
+  width: 100%;
+}
+main .container .productOfBusiness .infoAboutSection {
+  height: 200px;
+  width: 100%;
+}
+main .container .productOfBusiness .infoAboutSection h3 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  display: block;
+}
+@media (max-width: 963px) {
+  main .container .productOfBusiness .infoAboutSection {
+    height: 200px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .infoAboutSection h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    display: block;
+    margin-top: 60px;
+  }
+}
+main .container .productOfBusiness .products {
+  min-height: 700px;
+  width: 100%;
+}
+@media (max-width: 963px) {
+  main .container .productOfBusiness .products .topBoxes {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .topBoxes a {
+    height: 200px;
+    width: 75%;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  main .container .productOfBusiness .products .topBoxes a .posTerm {
+    background-color: #e7f4f9;
+  }
+  main .container .productOfBusiness .products .topBoxes a .businessCard {
+    background-color: #ffebf0;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info {
+    height: 40px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info h4 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 10px;
+    display: block;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice {
+    height: 100px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout {
+    height: 25px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
+  }
+  main .container .productOfBusiness .products .bottomBoxes {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a {
+    height: 200px;
+    width: 75%;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .financing {
+    background-color: #e7f4f9;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .e-commerce {
+    background-color: #ffebf0;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .bankGuarantee {
+    background-color: #e7f4f9;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info {
+    height: 40px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info h4 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 10px;
+    display: block;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice {
+    height: 100px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout {
+    height: 25px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
+  }
+}
+@media (min-width: 963px) {
+  main .container .productOfBusiness .products .topBoxes {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .topBoxes a {
+    height: 280px;
+    width: 45%;
+    text-decoration: none;
+    color: inherit;
+  }
+  main .container .productOfBusiness .products .topBoxes a .posTerm {
+    background-color: #e7f4f9;
+    background-image: url(/assets/img/pos-terminal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  main .container .productOfBusiness .products .topBoxes a .businessCard {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/business-cards.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT:hover {
+    box-shadow: 0 5px 5px 0 gray;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .info h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    -webkit-margin-before: 1.67em;
+            margin-block-start: 1.67em;
+    -webkit-margin-after: 1.67em;
+            margin-block-end: 1.67em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .notice p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout {
+    height: 30px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
+  }
+  main .container .productOfBusiness .products .bottomBoxes {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container .productOfBusiness .products .bottomBoxes .boxesB:hover {
+    box-shadow: 0 5px 5px gray;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a {
+    height: 280px;
+    width: 30%;
+    text-decoration: none;
+    color: inherit;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .financing {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/factoring.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .e-commerce {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/e-commerce.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .bankGuarantee {
+    background-color: #ffebf0;
+    background-image: url(/assets/img/bank-guarantee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info {
+    height: 50px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .info h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    display: block;
+    -webkit-margin-before: 1.67em;
+            margin-block-start: 1.67em;
+    -webkit-margin-after: 1.67em;
+            margin-block-end: 1.67em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice {
+    height: 120px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout {
+    height: 30px;
+    width: 100%;
+  }
+  main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout span {
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: green;
+  }
+}
+main .container .infoBankApp {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .container .infoBankApp .information {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .infoBankApp .information .titleOfBoxes {
+  height: 80px;
+  width: 100%;
+}
+main .container .infoBankApp .information .titleOfBoxes h3 {
+  line-height: 32px;
+  font-size: 25px;
+  color: black;
+}
+main .container .infoBankApp .information .boxes {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .infoBankApp .information .boxes .title {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+main .container .infoBankApp .information .boxes .title h6 {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 10px;
+}
+main .container .infoBankApp .information .boxes .text {
+  height: 100px;
+  width: 100%;
+}
+main .container .infoBankApp .information .boxes .text p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+main .container .infoBankApp .appPagesImg {
+  height: 100%;
+  width: 50%;
+  background-image: url(/assets/img/online-bank-pages.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 553px;
+}
+main .container .businessPackages {
+  height: 834px;
+  width: 100%;
+  background-color: #edefed;
+}
+main .container .businessPackages .titlePackages {
+  height: 136px;
+  width: 100%;
+}
+main .container .businessPackages .titlePackages h3 {
+  display: inline-block;
+}
+main .container .businessPackages .packagesBox {
+  height: 698px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .businessPackages .packagesBox .packages {
+  width: 32%;
+  height: 95%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container {
+  height: 98%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .container .businessPackages .packagesBox .packages .container .titlePackage {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 10px 0;
+}
+main .container .businessPackages .packagesBox .packages .container img {
+  width: 100%;
+  margin: 10px 0;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  width: 80%;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest h2 {
+  display: inline-flex;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest img {
+  width: 18px;
+  margin-top: 20px;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest p {
+  margin: 10px 0 0 2px;
+}
+main .container .businessPackages .packagesBox .packages .container h5 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo {
+  min-height: 20%;
+  margin-bottom: 50px;
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo li {
+  list-style-image: url("/assets/icon/done_green.svg");
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo li span {
+  color: #058d66;
+}
+main .container .businessPackages .packagesBox .packages .container a {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout p {
+  color: #058d66;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout:hover {
+  background-color: #edefed;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount {
+  height: 30px;
+  width: 100%;
+  background-color: #058d66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount p {
+  color: white;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount:hover {
+  background-color: #169773;
+}
+main .container .mobilBank {
+  height: 360px;
+  width: 100%;
+  background-image: url(/assets/img/mobile-image.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .container .mobilBank .boxOfNotice .titleAboutMobilBank {
+  height: 25%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice .titleAboutMobilBank h4 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: black;
+}
+main .container .mobilBank .boxOfNotice .informationAboutMobilBank {
+  height: 22%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+main .container .mobilBank .boxOfNotice .informationAboutMobilBank h4 {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode {
+  height: 30%;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore {
+  height: 45%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore a img {
+  height: 100%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay {
+  height: 45%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay a img {
+  height: 100%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode {
+  height: 70%;
+  width: 35%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode a img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=styleOfMainPage.css.map */
