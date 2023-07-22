@@ -633,5 +633,144 @@ main {
                 min-height: 553px;
             }
         }
+
+        .businessPackages {
+            height: 834px;
+            width: 100%;
+            background-color: #edefed;
+
+            .titlePackages {
+                height: 136px;
+                width: 100%;
+
+                h3 {
+                   display: inline-block;
+                }
+            }
+            .packagesBox {
+                height: 698px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .packages {
+                    width: 32%;
+                    height: 95%;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 5px;
+
+                    .container {
+                        height: 98%;
+                        width: 95%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        
+
+                        .titlePackage {
+                            font-size: 25px;
+                            font-weight: normal;
+                            line-height: 20px;
+                            margin: 10px 0;
+                        }
+
+                        img {
+                            width: 100%;
+                            margin: 10px 0;
+                        }
+                        .paymentSuggest {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: start;
+                            height: 50px;
+                            width: 80%;
+                            h2 {
+                                display: inline-flex;
+                                font-size: 60px;
+                                font-weight: 300;
+                                line-height: 50px;
+                                letter-spacing: -.5px;
+                            }
+                            img {
+                                width: 18px;
+                                margin-top: 20px;
+                            }
+                            p {
+                                margin: 10px 0 0 2px;
+                            }
+                        }
+                        h5 {
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 600;
+                            color: rgba(0,0,0,.87);
+                        }
+                        .packageInfo {
+                            min-height: 20%;
+                            margin-bottom: 50px;
+                            li {
+                                list-style-image: url('/assets/icon/done_green.svg');
+                                color: rgba(0,0,0,.6);
+                                font-weight: 800;
+                                font-size: 14px;
+                                line-height: 10px;
+                                letter-spacing: .25px;
+                                margin-bottom: 16px;
+
+                                span {
+                                    color: #058d66;
+                                }
+                            }
+                        }
+                        a {
+                            width: 70%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 5px;
+                            text-decoration: none;
+                            color: inherit;
+                            .moreAbout {
+                                height: 30px;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 5px;
+                                p {                                   
+                                        color: #058d66;
+                                }
+                            }
+                            .moreAbout:hover {
+                                background-color: #edefed;
+                            }
+                            .createAccount {
+                                height: 30px;
+                                width: 100%;
+                                background-color: #058d66;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 5px;
+                                p {
+                                    color: white;
+                                }
+                            }
+                            .createAccount:hover {
+                                background-color: #169773;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

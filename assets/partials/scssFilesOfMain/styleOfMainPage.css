@@ -570,4 +570,134 @@ main .container .infoBankApp .appPagesImg {
   background-repeat: no-repeat;
   background-position: right;
   min-height: 553px;
+}
+main .container .businessPackages {
+  height: 834px;
+  width: 100%;
+  background-color: #edefed;
+}
+main .container .businessPackages .titlePackages {
+  height: 136px;
+  width: 100%;
+}
+main .container .businessPackages .titlePackages h3 {
+  display: inline-block;
+}
+main .container .businessPackages .packagesBox {
+  height: 698px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .businessPackages .packagesBox .packages {
+  width: 32%;
+  height: 95%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container {
+  height: 98%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .container .businessPackages .packagesBox .packages .container .titlePackage {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 10px 0;
+}
+main .container .businessPackages .packagesBox .packages .container img {
+  width: 100%;
+  margin: 10px 0;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  width: 80%;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest h2 {
+  display: inline-flex;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest img {
+  width: 18px;
+  margin-top: 20px;
+}
+main .container .businessPackages .packagesBox .packages .container .paymentSuggest p {
+  margin: 10px 0 0 2px;
+}
+main .container .businessPackages .packagesBox .packages .container h5 {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo {
+  min-height: 20%;
+  margin-bottom: 50px;
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo li {
+  list-style-image: url("/assets/icon/done_green.svg");
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+main .container .businessPackages .packagesBox .packages .container .packageInfo li span {
+  color: #058d66;
+}
+main .container .businessPackages .packagesBox .packages .container a {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout p {
+  color: #058d66;
+}
+main .container .businessPackages .packagesBox .packages .container a .moreAbout:hover {
+  background-color: #edefed;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount {
+  height: 30px;
+  width: 100%;
+  background-color: #058d66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount p {
+  color: white;
+}
+main .container .businessPackages .packagesBox .packages .container a .createAccount:hover {
+  background-color: #169773;
 }/*# sourceMappingURL=styleOfMainPage.css.map */
