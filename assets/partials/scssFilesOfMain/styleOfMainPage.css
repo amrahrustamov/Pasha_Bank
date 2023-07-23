@@ -28,7 +28,7 @@ main .moreAbout a {
   color: green;
 }
 main .container {
-  height: 4000px;
+  height: 70%;
   width: 70%;
 }
 main .container .slider {
@@ -375,14 +375,10 @@ main .container .productOfBusiness .products {
     font-weight: 500;
     line-height: 32px;
     display: block;
-    -webkit-margin-before: 1.67em;
-            margin-block-start: 1.67em;
-    -webkit-margin-after: 1.67em;
-            margin-block-end: 1.67em;
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-    -webkit-margin-end: 0px;
-            margin-inline-end: 0px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   main .container .productOfBusiness .products .topBoxes a .boxesT .notice {
     height: 120px;
@@ -395,14 +391,10 @@ main .container .productOfBusiness .products {
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.6);
     display: block;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
-    -webkit-margin-after: 1em;
-            margin-block-end: 1em;
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-    -webkit-margin-end: 0px;
-            margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   main .container .productOfBusiness .products .topBoxes a .boxesT .moreAbout {
     height: 30px;
@@ -471,14 +463,10 @@ main .container .productOfBusiness .products {
     font-weight: 500;
     line-height: 32px;
     display: block;
-    -webkit-margin-before: 1.67em;
-            margin-block-start: 1.67em;
-    -webkit-margin-after: 1.67em;
-            margin-block-end: 1.67em;
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-    -webkit-margin-end: 0px;
-            margin-inline-end: 0px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   main .container .productOfBusiness .products .bottomBoxes a .boxesB .notice {
     height: 120px;
@@ -491,14 +479,10 @@ main .container .productOfBusiness .products {
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.6);
     display: block;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
-    -webkit-margin-after: 1em;
-            margin-block-end: 1em;
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-    -webkit-margin-end: 0px;
-            margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   main .container .productOfBusiness .products .bottomBoxes a .boxesB .moreAbout {
     height: 30px;
@@ -747,7 +731,7 @@ main .container .mobilBank .boxOfNotice .informationAboutMobilBank h4 {
 }
 main .container .mobilBank .boxOfNotice .storesAndQRcode {
   height: 30%;
-  width: 200px;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -764,12 +748,20 @@ main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore
   height: 45%;
   width: 100%;
 }
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore a {
+  height: 100%;
+  width: 100%;
+}
 main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .appStore a img {
   height: 100%;
   width: 100%;
 }
 main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay {
   height: 45%;
+  width: 100%;
+}
+main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay a {
+  height: 100%;
   width: 100%;
 }
 main .container .mobilBank .boxOfNotice .storesAndQRcode .mobileStores .googlePlay a img {
@@ -780,7 +772,47 @@ main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode {
   height: 70%;
   width: 35%;
 }
+main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode a {
+  height: 100%;
+  width: 100%;
+}
 main .container .mobilBank .boxOfNotice .storesAndQRcode .qrCode a img {
   height: 100%;
   width: 100%;
+}
+@media (max-width: 963px) {
+  main .container .titleAboutMobilBank {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  main .container .titleAboutMobilBank h4 {
+    margin-top: 0;
+    font-size: 15px !important;
+    font-weight: 100;
+    line-height: 13px !important;
+    letter-spacing: 0.1px;
+    color: black;
+  }
+  main .container .informationAboutMobilBank {
+    height: 30%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  main .container .informationAboutMobilBank h4 {
+    margin-top: 0;
+    font-size: 10px !important;
+    font-weight: 100;
+    line-height: 10px !important;
+    letter-spacing: 0.1px;
+  }
+  main .container .storesAndQRcode {
+    display: none;
+  }
+  main .container .storesAndQRcode img {
+    display: none;
+  }
 }/*# sourceMappingURL=styleOfMainPage.css.map */

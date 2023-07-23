@@ -1,1 +1,56 @@
-/*# sourceMappingURL=styleOfFooter.css.map */
+footer {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+footer .contain {
+  width: 70%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+footer .contain .boxes {
+  width: 25%;
+  height: 100%;
+}
+footer .contain .boxes .logoAndContact {
+  width: 100%;
+  height: 68px;
+}
+footer .contain .boxes .logoAndContact img {
+  width: 60%;
+  height: 68px;
+}
+footer .contain .boxes .logoAndContact p {
+  font-size: 15px;
+}
+footer .contain .boxes .logoAndContact p span {
+  font-size: 12px;
+  line-height: 25px;
+}
+footer .contain .boxes ul {
+  padding-left: 0;
+  width: 100%;
+  min-height: 270px;
+}
+footer .contain .boxes ul li {
+  list-style-type: none;
+}
+footer .contain .boxes ul a {
+  text-decoration: none;
+  color: inherit;
+}
+footer .contain .boxes ul a li {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .contain .boxes ul .iconsSocialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .contain .boxes ul .iconsSocialMedia a i {
+  margin-top: 20px;
+}/*# sourceMappingURL=styleOfFooter.css.map */
