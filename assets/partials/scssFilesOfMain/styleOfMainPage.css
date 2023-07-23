@@ -1,7 +1,6 @@
 main {
   width: 100%;
   min-height: 2000px;
-  border: 1px solid black;
   position: static;
   display: flex;
   flex-direction: column;
@@ -32,9 +31,28 @@ main .container {
   width: 70%;
 }
 main .container .slider {
-  width: 100%;
   height: 504px;
-  background-color: aquamarine;
+  background-image: url("/assets/img/PasaBankMusteOlun.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 100px;
+}
+main .container .slider p {
+  padding-left: 10px;
+  font-weight: 500;
+  margin-top: 150px;
+}
+main .container .slider .button {
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
 }
 @media (min-width: 963px) {
   main .container .businessSuggest {
